@@ -1,3 +1,8 @@
+Implementation of A* on PR2 in OpenRAVE. Key features:
+1. Collision checking
+2. 2 heuristics - Manthattan & Euclidean
+
+Questions:
 
 1. (70 points) Open the hw2 template. Implement the A* algorithm to find the shortest collision-free path for the PR2’s base from the start to the goal in the given environment:
 You will be planning for translation of the base in X and Y as well as rotation about the Z axis of the robot, for 3 DOF total. You will need to determine reasonable step sizes for each DOF. If no path exists, the algorithm should print out “No Solution Found.” You may use existing code to implement the priority queue used in A*. Implement 4 variants of the A* algorithm:
